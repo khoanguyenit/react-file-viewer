@@ -6,8 +6,8 @@ import { PDFJS } from 'pdfjs-dist/build/pdf.combined';
 import 'pdfjs-dist/web/compatibility';
 
 PDFJS.disableWorker = true;
-const INCREASE_PERCENTAGE = 0.2;
-const DEFAULT_SCALE = 1.1;
+const INCREASE_PERCENTAGE = 0.4;
+const DEFAULT_SCALE = 1.5;
 
 export class PDFPage extends React.Component {
   constructor(props) {
